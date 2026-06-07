@@ -1,0 +1,6 @@
+{
+  "name": "시험지 분석기",
+  "description": "시험지 사진을 업로드하면 AI가 자동으로 채점하고 점수, 정오표, 약점 및 공부 방향 등을 분석해주는 시험지 분석 도구입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

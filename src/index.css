@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-beige-bg: #f5f0eb;
+  --color-navy-primary: #1a2744;
+  --color-orange-point: #f97316;
+}
+
+body {
+  background-color: var(--color-beige-bg);
+  color: var(--color-navy-primary);
+  font-family: var(--font-sans);
+}
